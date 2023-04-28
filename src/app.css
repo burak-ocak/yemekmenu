@@ -1,0 +1,46 @@
+.kok-etiket {
+    text-align: center;
+}
+
+.kategori {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.kategori button {
+    border: none;
+    background-color: transparent;
+    font-size: larger;
+    font-weight: bolder;
+    transition: 0.4s;
+}
+
+.kategori button:hover {
+    background-color: rgb(247, 245, 127);
+    cursor: pointer;
+}
+
+.menuler {
+    margin: 0 auto;
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.menuler .cards {
+    display: flex;
+    width: 50%;
+    align-items: center;
+}
+
+.img img {
+    width: 50%;
+    border: 2px solid black;
+}
+
+.card-body {
+    width: 50%;
+}
